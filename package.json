@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/theverything/co-fs/issues"
   },
-  "homepage": "https://github.com/theverything/co-fs"
+  "homepage": "https://github.com/theverything/co-fs",
+  "dependencies": {
+    "thunkify": "^2.1.2"
+  }
 }
