@@ -4,7 +4,8 @@
   "description": "co-fs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --harmony ./test.js",
+    "clean": "rm -r hello"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "homepage": "https://github.com/theverything/co-fs",
   "dependencies": {
     "thunkify": "^2.1.2"
+  },
+  "devDependencies": {
+    "co": "^3.1.0"
   }
 }
